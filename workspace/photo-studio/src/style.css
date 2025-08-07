@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utility for masonry children */
+.break-inside-avoid {
+  break-inside: avoid;
+}
+
+/* Smooth fonts and base body styling */
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { @apply bg-white text-gray-900 font-body; }
+#app { @apply min-h-screen flex flex-col; }
